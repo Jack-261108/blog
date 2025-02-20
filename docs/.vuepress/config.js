@@ -139,3 +139,6 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 })
+module.exports={
+  base: '/blog/'
+}
